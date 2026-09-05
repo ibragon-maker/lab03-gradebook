@@ -21,9 +21,9 @@
 #include <string>
 #include <limits>
 #include <iomanip>
+#include "stats.h"
 
 constexpr int STUDENT_COUNT = 6;
-constexpr int ASSIGNMENT_COUNT = 5;
 constexpr int NAME_WIDTH = 14;
 /**
  * @brief Calculates the selected students average
@@ -274,20 +274,6 @@ void findExtremes(const std::array<std::array<double, ASSIGNMENT_COUNT>, STUDENT
         }
     }
 
-}
-
-char letterGrade(double average) {
-    if ( average >= 90 ) {
-        return 'A';
-    } else if ( average >= 80 ) {
-        return 'B';
-    } else if ( average >= 70 ) {
-        return 'C';
-    } else if ( average >= 60 ) {
-        return 'D';
-    } else {
-        return 'F';
-    }
 }
 
 double gradePoints(char letter) {
