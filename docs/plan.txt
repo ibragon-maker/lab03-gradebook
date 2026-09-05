@@ -1,0 +1,9 @@
+lab 03 gradebook plan
+
+-set up folders src and include
+-break gradebook.cpp up
+    -put functions and structs in include gradebook
+    -put functionsin src gradebook
+    -put main loop and menu in src main
+-make sure everything runs fine
+-re test everything in menu like before to make sure it works
